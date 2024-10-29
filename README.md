@@ -13,11 +13,15 @@ yolo detect predict model=E:/yolov8.2/yolov8s.pt       source=E:/yolov8.2/test/
 
 同理，这里的source也是根据自己的文件目录去更改
 ## 代码仓库文件说明
-### 1.train_lable 训练图像的标签图片（含格式要求）
-### 2.train_image 要求训练的图片 （图片的标注工作是在LabelMe上进行的）
-### 3.train_code 训练的源代码和一些我训练的图片结果，其中train4是最终的训练结果
+ 1.train_lable 训练图像的标签图片（含格式要求）
+ 
+ 2.train_image 要求训练的图片 （图片的标注工作是在LabelMe上进行的）
+
+ 3.train_code 训练的源代码和一些我训练的图片结果，其中train4是最终的训练结果
 
 ## train_code内容说明
-### 1.runs/detect/train4目录是最终的8000多张标记的图片的训练结果
-### 2.runs/detect/train4/weights/best.pt这是训练结果最终的最佳结果和已经训练好的模型，可以向外导出应用在同等情况下
-### 3.yolov8/ultralytics/cfg/datasets/train2024.yaml这是标记的类的说明，我一共标记了4个类，大家可以参考yolov8/ultralytics/cfg/datasets/coco8.yaml目录下的80余个类来进行自己训练的类的选择
+ 1.runs/detect/train4目录是最终的8000多张标记的图片的训练结果
+
+ 2.runs/detect/train4/weights/best.pt这是训练结果最终的最佳结果和已经训练好的模型，可以向外导出应用在同等情况下
+
+ 3.yolov8/ultralytics/cfg/datasets/train2024.yaml这是标记的类的说明，我一共标记了4个类，大家可以参考yolov8/ultralytics/cfg/datasets/coco8.yaml目录下的80余个类来进行自己训练的类的选择
