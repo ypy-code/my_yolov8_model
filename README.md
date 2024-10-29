@@ -14,4 +14,4 @@ yolo detect predict model=E:/yolov8.2/yolov8s.pt       source=E:/yolov8.2/test/
 同理，这里的source也是根据自己的文件目录去更改
 ## 代码仓库文件说明
 ### 1.train_lable 训练图像的标签图片（含格式要求）
-### 2.
+### 2.train_image 要求训练的图片
