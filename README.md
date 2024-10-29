@@ -7,3 +7,6 @@ yolo detect train data=D:/yolov8.2/yolov8/ultralytics/cfg/datasets/train2024.yam
 ### 2.检测
 yolo detect predict model=d:/yolov8.2/best.pt       source=d:/yolov8.2/test/
 yolo detect predict model=E:/yolov8.2/yolov8s.pt       source=E:/yolov8.2/test/
+## 代码仓库文件说明
+### 1.train_lable 训练图像的标签图片（含格式要求）
+### 2.
