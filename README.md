@@ -19,6 +19,10 @@ yolo detect predict model=E:/yolov8.2/yolov8s.pt       source=E:/yolov8.2/test/
 
  3.train_code 训练的源代码和一些我训练的图片结果，其中train4是最终的训练结果
 
+ 4.如果大家使用百度网盘中的zip文件，直接下载代码即可，就不用再下载数据了
+
+ 5.如果大家想要使用源代码，并且放入自己的数据集，直接下载本代码仓库就可以，并且将自己的数据集放到相应的文件夹下  train2024
+
 ## train_code内容说明
  1.runs/detect/train4目录是最终的8000多张标记的图片的训练结果
 
